@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true
+  },
+  "include": [
+    "packages/**/*.ts",
+    "apps/**/*.ts",
+    "tools/**/*.ts",
+    "tools/**/*.mjs",
+    "vitest.config.ts"
+  ],
+  "exclude": [
+    "**/node_modules",
+    "**/out",
+    "tools/carve/strata/overlay/**"
+  ]
+}

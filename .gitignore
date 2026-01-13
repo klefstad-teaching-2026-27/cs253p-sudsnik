@@ -1,0 +1,16 @@
+.DS_Store
+.carved
+results/
+.reference/
+# Git worktrees live here. Each is a second checkout of this repository, so committing one
+# would commit the whole tree again.
+worktrees/
+.env
+node_modules/
+out/
+data/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+dist/
+*.tsbuildinfo
