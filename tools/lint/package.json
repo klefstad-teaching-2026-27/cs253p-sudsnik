@@ -1,0 +1,15 @@
+{
+  "name": "@sudsnik/lint",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "exports": { ".": "./src/index.ts" },
+  "dependencies": {
+    "@sudsnik/contracts": "1.0.0",
+    "@typescript-eslint/parser": "^8.70.0",
+    "@typescript-eslint/utils": "^8.70.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/rule-tester": "^8.70.0"
+  }
+}
