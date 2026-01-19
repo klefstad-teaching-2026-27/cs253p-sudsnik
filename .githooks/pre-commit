@@ -1,0 +1,50 @@
+#!/usr/bin/env bash
+# pre-commit hook: keep credentials and junk out of the repository.
+# A backstop for the rule in CLAUDE.md, not a substitute for it.
+fail=0
+
+staged() { git diff --cached --name-only --diff-filter=ACM; }
+
+# Filenames that are never intentional.
+while IFS= read -r f; do
+  [ -n "$f" ] || continue
+  case "$(basename "$f")" in
+    .env|.env.*|*.pem|*.p12|*.pfx|id_rsa|id_ed25519|*key.json|credentials.json)
+      echo "pre-commit: refusing to commit $f (credential-shaped filename)" >&2
+      fail=1 ;;
+    .DS_Store)
+      echo "pre-commit: refusing to commit $f" >&2
+      fail=1 ;;
+  esac
+done < <(staged)
+
+# Files large enough to be an accident.
+while IFS= read -r f; do
+  [ -f "$f" ] || continue
+  size=$(wc -c < "$f" | tr -d ' ')
+  if [ "$size" -gt 1048576 ]; then
+    echo "pre-commit: $f is $((size / 1024)) KiB; gitignore it or commit it deliberately" >&2
+    fail=1
+  fi
+done < <(staged)
+
+# Content that should not be in a diff. This file is excluded: its own pattern list is
+# made of the strings it looks for.
+added="$(git diff --cached -U0 -- . ':(exclude).githooks/pre-commit' | grep -E '^\+' || true)"
+
+if printf '%s' "$added" | grep -Eq '^\+(<<<<<<<|>>>>>>>) '; then
+  echo "pre-commit: staged changes contain merge conflict markers" >&2
+  fail=1
+fi
+
+secret_re='(BEGIN [A-Z ]*PRIVATE KEY|aws_secret_access_key|xox[baprs]-|gh[pousr]_[A-Za-z0-9]{16,}|sk-[A-Za-z0-9]{20,}|AKIA[0-9A-Z]{16})'
+if printf '%s' "$added" | grep -Eiq "$secret_re"; then
+  echo "pre-commit: staged changes look like they contain a credential" >&2
+  fail=1
+fi
+
+if [ "$fail" -ne 0 ]; then
+  echo "" >&2
+  echo "Fix the cause. Reaching for --no-verify is how the thing you are hiding gets committed." >&2
+  exit 1
+fi
