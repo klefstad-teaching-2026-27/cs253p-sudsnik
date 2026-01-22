@@ -1,0 +1,8 @@
+{
+  "name": "@sudsnik/kernel",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "exports": { ".": "./src/index.ts" },
+  "dependencies": { "ulidx": "^2.4.1" }
+}
