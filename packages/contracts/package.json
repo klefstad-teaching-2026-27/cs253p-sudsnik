@@ -1,0 +1,22 @@
+{
+  "name": "@sudsnik/contracts",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "exports": {
+    ".": "./src/index.ts",
+    "./testing": "./testing/fakeDeps.ts",
+    "./canon": "./src/canon.ts",
+    "./topics": "./src/topics.ts",
+    "./events": "./src/events/index.ts",
+    "./services/*": "./src/services/*/index.ts",
+    "./ports": "./src/ports.ts",
+    "./mocks/*": "./src/mocks/*.ts",
+    "./testing/contractSuite": "./testing/contractSuite.ts"
+  },
+  "dependencies": {
+    "@opentelemetry/api": "^1.9.1",
+    "@sudsnik/kernel": "1.0.0",
+    "zod": "^4.6.5"
+  }
+}
