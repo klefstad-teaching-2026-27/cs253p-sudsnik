@@ -1,0 +1,3 @@
+{ "name": "@sudsnik/infra-queue", "version": "1.0.0", "type": "module", "private": true,
+  "exports": { ".": "./src/index.ts", "./registry": "./src/registry.ts" },
+  "dependencies": { "@sudsnik/contracts": "1.0.0", "@sudsnik/infra-db": "1.0.0", "@sudsnik/kernel": "1.0.0", "better-sqlite3": "^12.11.1" } }
