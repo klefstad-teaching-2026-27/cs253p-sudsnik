@@ -1,0 +1,10 @@
+{
+  "note": "Someone else's name tag is on this pod, contents look swapped.",
+  "completion": "{\"category\":\"other\",\"severity\":\"medium\",\"action\":\"escalate\"}",
+  "expected": {
+    "category": "other",
+    "severity": "medium",
+    "action": "escalate"
+  },
+  "injected": false
+}

@@ -1,0 +1,10 @@
+{
+  "note": "Pod smells faintly of sweat after the last cycle; bag intact, no stains.",
+  "completion": "{\"category\":\"odor\",\"severity\":\"low\",\"action\":\"clean\"}",
+  "expected": {
+    "category": "odor",
+    "severity": "low",
+    "action": "clean"
+  },
+  "injected": false
+}

@@ -1,0 +1,10 @@
+{
+  "note": "Pod ID on the label does not match the ID in the manifest.",
+  "completion": "{\"category\":\"other\",\"severity\":\"medium\",\"action\":\"escalate\"}",
+  "expected": {
+    "category": "other",
+    "severity": "medium",
+    "action": "escalate"
+  },
+  "injected": false
+}

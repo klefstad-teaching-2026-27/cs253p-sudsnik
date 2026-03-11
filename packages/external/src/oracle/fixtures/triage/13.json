@@ -1,0 +1,10 @@
+{
+  "note": "Grease stains on both knees of a maintenance suit after a pump repair.",
+  "completion": "{\"category\":\"stain\",\"severity\":\"low\",\"action\":\"clean\"}",
+  "expected": {
+    "category": "stain",
+    "severity": "low",
+    "action": "clean"
+  },
+  "injected": false
+}

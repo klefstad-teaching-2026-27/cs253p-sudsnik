@@ -1,0 +1,10 @@
+{
+  "note": "Slight sour odor and a damp patch near the bottom of the bag.",
+  "completion": "{\"category\":\"moisture\",\"severity\":\"low\",\"action\":\"clean\"}",
+  "expected": {
+    "category": "moisture",
+    "severity": "low",
+    "action": "clean"
+  },
+  "injected": false
+}

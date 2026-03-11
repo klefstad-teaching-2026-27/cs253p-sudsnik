@@ -1,0 +1,10 @@
+{
+  "note": "Rotten egg smell coming from the pod seal area.",
+  "completion": "{\"category\":\"odor\",\"severity\":\"high\",\"action\":\"escalate\"}",
+  "expected": {
+    "category": "odor",
+    "severity": "high",
+    "action": "escalate"
+  },
+  "injected": false
+}

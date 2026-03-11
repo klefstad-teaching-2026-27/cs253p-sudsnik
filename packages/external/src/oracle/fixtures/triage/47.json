@@ -1,0 +1,10 @@
+{
+  "note": "Food crumbs and a candy wrapper in the bag, otherwise normal.",
+  "completion": "{\"category\":\"contamination\",\"severity\":\"low\",\"action\":\"clean\"}",
+  "expected": {
+    "category": "contamination",
+    "severity": "low",
+    "action": "clean"
+  },
+  "injected": false
+}

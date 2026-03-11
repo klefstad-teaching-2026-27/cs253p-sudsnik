@@ -1,0 +1,10 @@
+{
+  "note": "Scorch mark on the pod base with a hot plastic smell.",
+  "completion": "{\"category\":\"damage\",\"severity\":\"high\",\"action\":\"escalate\"}",
+  "expected": {
+    "category": "damage",
+    "severity": "high",
+    "action": "escalate"
+  },
+  "injected": false
+}

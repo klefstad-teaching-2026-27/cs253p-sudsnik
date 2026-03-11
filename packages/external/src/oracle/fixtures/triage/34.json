@@ -1,0 +1,10 @@
+{
+  "note": "Load feels damp all over even though the cycle reported done.",
+  "completion": "{\"category\":\"moisture\",\"severity\":\"low\",\"action\":\"clean\"}",
+  "expected": {
+    "category": "moisture",
+    "severity": "low",
+    "action": "clean"
+  },
+  "injected": false
+}

@@ -1,0 +1,10 @@
+{
+  "note": "Large brown stain across a jumpsuit, source unknown.",
+  "completion": "{\"category\":\"stain\",\"severity\":\"medium\",\"action\":\"inspect\"}",
+  "expected": {
+    "category": "stain",
+    "severity": "medium",
+    "action": "inspect"
+  },
+  "injected": false
+}

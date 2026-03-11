@@ -1,0 +1,10 @@
+{
+  "note": "Pod telemetry stopped two hours into transit and resumed at docking.",
+  "completion": "{\"category\":\"sensor\",\"severity\":\"low\",\"action\":\"inspect\"}",
+  "expected": {
+    "category": "sensor",
+    "severity": "low",
+    "action": "inspect"
+  },
+  "injected": false
+}

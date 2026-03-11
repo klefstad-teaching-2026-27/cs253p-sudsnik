@@ -1,0 +1,10 @@
+{
+  "note": "Blue dye transfer from a new shirt onto the white items.",
+  "completion": "{\"category\":\"stain\",\"severity\":\"low\",\"action\":\"clean\"}",
+  "expected": {
+    "category": "stain",
+    "severity": "low",
+    "action": "clean"
+  },
+  "injected": false
+}

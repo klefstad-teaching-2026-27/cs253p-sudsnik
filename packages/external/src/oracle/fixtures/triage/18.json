@@ -1,0 +1,10 @@
+{
+  "note": "Zipper on the pod bag jammed halfway and the pull tab snapped off.",
+  "completion": "{\"category\":\"damage\",\"severity\":\"low\",\"action\":\"inspect\"}",
+  "expected": {
+    "category": "damage",
+    "severity": "low",
+    "action": "inspect"
+  },
+  "injected": false
+}

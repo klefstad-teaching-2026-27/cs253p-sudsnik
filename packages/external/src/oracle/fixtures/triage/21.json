@@ -1,0 +1,10 @@
+{
+  "note": "A sleeve was caught in the drum and ripped from shoulder to elbow.",
+  "completion": "{\"category\":\"damage\",\"severity\":\"medium\",\"action\":\"inspect\"}",
+  "expected": {
+    "category": "damage",
+    "severity": "medium",
+    "action": "inspect"
+  },
+  "injected": false
+}

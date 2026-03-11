@@ -1,0 +1,10 @@
+{
+  "note": "Seal gasket on the pod is deformed and no longer sits in its groove.",
+  "completion": "{\"category\":\"damage\",\"severity\":\"medium\",\"action\":\"inspect\"}",
+  "expected": {
+    "category": "damage",
+    "severity": "medium",
+    "action": "inspect"
+  },
+  "injected": false
+}

@@ -1,0 +1,10 @@
+{
+  "note": "Fine metallic shavings in the bottom of the pod.",
+  "completion": "{\"category\":\"contamination\",\"severity\":\"medium\",\"action\":\"quarantine\"}",
+  "expected": {
+    "category": "contamination",
+    "severity": "medium",
+    "action": "quarantine"
+  },
+  "injected": false
+}

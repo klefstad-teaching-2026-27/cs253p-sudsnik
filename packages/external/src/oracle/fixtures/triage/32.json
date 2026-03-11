@@ -1,0 +1,10 @@
+{
+  "note": "Pod reports an open-lid event while it was sealed in the shuttle rack.",
+  "completion": "{\"category\":\"sensor\",\"severity\":\"medium\",\"action\":\"inspect\"}",
+  "expected": {
+    "category": "sensor",
+    "severity": "medium",
+    "action": "inspect"
+  },
+  "injected": false
+}

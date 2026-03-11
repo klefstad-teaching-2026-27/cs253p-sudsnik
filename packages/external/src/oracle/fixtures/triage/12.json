@@ -1,0 +1,10 @@
+{
+  "note": "Rust-colored streaks on the bag interior near the zipper.",
+  "completion": "{\"category\":\"stain\",\"severity\":\"medium\",\"action\":\"inspect\"}",
+  "expected": {
+    "category": "stain",
+    "severity": "medium",
+    "action": "inspect"
+  },
+  "injected": false
+}

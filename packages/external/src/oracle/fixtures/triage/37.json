@@ -1,0 +1,10 @@
+{
+  "note": "Towels came back soaking wet and heavy, spin probably failed.",
+  "completion": "{\"category\":\"moisture\",\"severity\":\"medium\",\"action\":\"inspect\"}",
+  "expected": {
+    "category": "moisture",
+    "severity": "medium",
+    "action": "inspect"
+  },
+  "injected": false
+}

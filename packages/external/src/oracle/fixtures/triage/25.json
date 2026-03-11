@@ -1,0 +1,10 @@
+{
+  "note": "RFID tag on the pod does not read at the airlock scanner.",
+  "completion": "{\"category\":\"sensor\",\"severity\":\"low\",\"action\":\"inspect\"}",
+  "expected": {
+    "category": "sensor",
+    "severity": "low",
+    "action": "inspect"
+  },
+  "injected": false
+}

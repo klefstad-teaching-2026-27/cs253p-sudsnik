@@ -1,0 +1,10 @@
+{
+  "note": "Pod is missing two items compared with the packing list.",
+  "completion": "{\"category\":\"other\",\"severity\":\"low\",\"action\":\"inspect\"}",
+  "expected": {
+    "category": "other",
+    "severity": "low",
+    "action": "inspect"
+  },
+  "injected": false
+}

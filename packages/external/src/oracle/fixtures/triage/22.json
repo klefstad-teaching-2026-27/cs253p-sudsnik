@@ -1,0 +1,10 @@
+{
+  "note": "Small puncture in the bag wall, nothing seems to have leaked out.",
+  "completion": "{\"category\":\"damage\",\"severity\":\"low\",\"action\":\"inspect\"}",
+  "expected": {
+    "category": "damage",
+    "severity": "low",
+    "action": "inspect"
+  },
+  "injected": false
+}

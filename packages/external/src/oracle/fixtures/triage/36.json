@@ -1,0 +1,10 @@
+{
+  "note": "Condensation on the inside of the pod lid after return.",
+  "completion": "{\"category\":\"moisture\",\"severity\":\"low\",\"action\":\"clean\"}",
+  "expected": {
+    "category": "moisture",
+    "severity": "low",
+    "action": "clean"
+  },
+  "injected": false
+}

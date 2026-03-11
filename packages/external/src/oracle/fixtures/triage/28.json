@@ -1,0 +1,10 @@
+{
+  "note": "Pod weight reading is 3 kg above what was packed.",
+  "completion": "{\"category\":\"sensor\",\"severity\":\"medium\",\"action\":\"inspect\"}",
+  "expected": {
+    "category": "sensor",
+    "severity": "medium",
+    "action": "inspect"
+  },
+  "injected": false
+}

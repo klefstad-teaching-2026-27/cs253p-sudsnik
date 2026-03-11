@@ -1,0 +1,10 @@
+{
+  "note": "Checksum error when the washer read the pod manifest.",
+  "completion": "{\"category\":\"sensor\",\"severity\":\"medium\",\"action\":\"inspect\"}",
+  "expected": {
+    "category": "sensor",
+    "severity": "medium",
+    "action": "inspect"
+  },
+  "injected": false
+}

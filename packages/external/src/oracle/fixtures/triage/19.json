@@ -1,0 +1,10 @@
+{
+  "note": "Pod shell cracked near the handle, edges are sharp.",
+  "completion": "{\"category\":\"damage\",\"severity\":\"high\",\"action\":\"escalate\"}",
+  "expected": {
+    "category": "damage",
+    "severity": "high",
+    "action": "escalate"
+  },
+  "injected": false
+}

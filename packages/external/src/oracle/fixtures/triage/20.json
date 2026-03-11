@@ -1,0 +1,10 @@
+{
+  "note": "Bag strap frayed through, pod was carried by the shell.",
+  "completion": "{\"category\":\"damage\",\"severity\":\"low\",\"action\":\"clean\"}",
+  "expected": {
+    "category": "damage",
+    "severity": "low",
+    "action": "clean"
+  },
+  "injected": false
+}

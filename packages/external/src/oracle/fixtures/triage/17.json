@@ -1,0 +1,10 @@
+{
+  "note": "Torn pod bag along one seam, about 10 cm, contents still inside.",
+  "completion": "{\"category\":\"damage\",\"severity\":\"medium\",\"action\":\"inspect\"}",
+  "expected": {
+    "category": "damage",
+    "severity": "medium",
+    "action": "inspect"
+  },
+  "injected": false
+}

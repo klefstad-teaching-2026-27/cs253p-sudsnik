@@ -1,0 +1,10 @@
+{
+  "note": "Bag was overstuffed and the pod lid would not close properly at pickup.",
+  "completion": "{\"category\":\"other\",\"severity\":\"low\",\"action\":\"inspect\"}",
+  "expected": {
+    "category": "other",
+    "severity": "low",
+    "action": "inspect"
+  },
+  "injected": false
+}

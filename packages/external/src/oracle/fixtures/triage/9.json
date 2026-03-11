@@ -1,0 +1,10 @@
+{
+  "note": "Coffee stain on two shirts, dried, about the size of a palm.",
+  "completion": "{\"category\":\"stain\",\"severity\":\"low\",\"action\":\"clean\"}",
+  "expected": {
+    "category": "stain",
+    "severity": "low",
+    "action": "clean"
+  },
+  "injected": false
+}

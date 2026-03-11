@@ -1,0 +1,10 @@
+{
+  "note": "Sensor board LED blinks a fault pattern, three short and one long.",
+  "completion": "{\"category\":\"sensor\",\"severity\":\"medium\",\"action\":\"inspect\"}",
+  "expected": {
+    "category": "sensor",
+    "severity": "medium",
+    "action": "inspect"
+  },
+  "injected": false
+}

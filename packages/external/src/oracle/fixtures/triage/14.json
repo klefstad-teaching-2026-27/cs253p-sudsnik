@@ -1,0 +1,10 @@
+{
+  "note": "Yellow discoloration on the pod liner that was not there at packing.",
+  "completion": "{\"category\":\"stain\",\"severity\":\"medium\",\"action\":\"inspect\"}",
+  "expected": {
+    "category": "stain",
+    "severity": "medium",
+    "action": "inspect"
+  },
+  "injected": false
+}

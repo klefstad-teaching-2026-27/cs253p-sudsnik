@@ -1,0 +1,10 @@
+{
+  "note": "Pod moisture sensor reports 100% but the contents feel dry.",
+  "completion": "{\"category\":\"sensor\",\"severity\":\"low\",\"action\":\"inspect\"}",
+  "expected": {
+    "category": "sensor",
+    "severity": "low",
+    "action": "inspect"
+  },
+  "injected": false
+}

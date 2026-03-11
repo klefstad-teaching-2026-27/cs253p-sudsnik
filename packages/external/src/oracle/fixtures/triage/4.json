@@ -1,0 +1,10 @@
+{
+  "note": "Burnt smell from the pod liner, no visible scorching.",
+  "completion": "{\"category\":\"odor\",\"severity\":\"high\",\"action\":\"escalate\"}",
+  "expected": {
+    "category": "odor",
+    "severity": "high",
+    "action": "escalate"
+  },
+  "injected": false
+}

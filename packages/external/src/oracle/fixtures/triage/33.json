@@ -1,0 +1,10 @@
+{
+  "note": "Cycle log shows the drum never reached spin speed on this pod.",
+  "completion": "{\"category\":\"sensor\",\"severity\":\"low\",\"action\":\"inspect\"}",
+  "expected": {
+    "category": "sensor",
+    "severity": "low",
+    "action": "inspect"
+  },
+  "injected": false
+}

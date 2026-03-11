@@ -1,0 +1,10 @@
+{
+  "note": "Pod liner is saturated and starting to smell.",
+  "completion": "{\"category\":\"moisture\",\"severity\":\"medium\",\"action\":\"inspect\"}",
+  "expected": {
+    "category": "moisture",
+    "severity": "medium",
+    "action": "inspect"
+  },
+  "injected": false
+}

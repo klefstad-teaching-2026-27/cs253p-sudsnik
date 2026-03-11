@@ -1,0 +1,10 @@
+{
+  "note": "Powder residue on the garments, unknown origin, white and dusty.",
+  "completion": "{\"category\":\"contamination\",\"severity\":\"high\",\"action\":\"quarantine\"}",
+  "expected": {
+    "category": "contamination",
+    "severity": "high",
+    "action": "quarantine"
+  },
+  "injected": false
+}
