@@ -1,0 +1,25 @@
+{
+  "name": "@sudsnik/service-billing",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "exports": { ".": "./src/index.ts" },
+  "peerDependencies": { "@sudsnik/contracts": "^1.0.0" },
+  "dependencies": {
+    "@sudsnik/clients": "1.0.0",
+    "@sudsnik/contracts": "1.0.0",
+    "@sudsnik/infra-boot": "1.0.0",
+    "@sudsnik/infra-cache": "1.0.0",
+    "@sudsnik/infra-db": "1.0.0",
+    "@sudsnik/infra-http": "1.0.0",
+    "@sudsnik/infra-queue": "1.0.0",
+    "@sudsnik/infra-resilience": "1.0.0",
+    "@sudsnik/infra-telemetry": "1.0.0",
+    "@sudsnik/kernel": "1.0.0",
+    "better-sqlite3": "^12.11.1",
+    "drizzle-orm": "^0.45.2",
+    "fastify": "^5.12.4",
+    "fastify-type-provider-zod": "^7.0.0",
+    "zod": "^4.6.5"
+  }
+}
