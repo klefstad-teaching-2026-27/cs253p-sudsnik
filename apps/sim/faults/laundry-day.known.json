@@ -1,0 +1,5 @@
+{
+  "events": [
+    { "atOrbit": 0, "mock": "ephemeris", "kind": "quota", "params": { "callsPerOrbit": 100 } }
+  ]
+}

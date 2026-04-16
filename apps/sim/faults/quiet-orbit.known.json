@@ -1,0 +1,6 @@
+{
+  "events": [
+    { "atOrbit": 0, "mock": "payments", "kind": "timeout-rate", "params": { "rate": 0.02 } },
+    { "atOrbit": 0, "mock": "payments", "kind": "duplicate-webhook-rate", "params": { "rate": 0.05 } }
+  ]
+}

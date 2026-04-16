@@ -1,0 +1,7 @@
+{
+  "events": [
+    { "atOrbit": 0, "mock": "washer-v1", "kind": "hold-drop-rate", "params": { "rate": 0.05 } },
+    { "atOrbit": 4, "orbits": 1, "mock": "relay", "kind": "dark", "params": { "kind": "node", "id": "B" } },
+    { "atOrbit": 7, "orbits": 1, "mock": "relay", "kind": "dark", "params": { "kind": "node", "id": "A" } }
+  ]
+}
