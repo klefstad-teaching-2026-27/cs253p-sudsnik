@@ -1,0 +1,22 @@
+{
+  "name": "@sudsnik/release",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@sudsnik/cli": "1.0.0",
+    "@sudsnik/clients": "1.0.0",
+    "@sudsnik/contracts": "1.0.0",
+    "@sudsnik/infra-metering": "1.0.0",
+    "@sudsnik/infra-queue": "1.0.0",
+    "@sudsnik/kernel": "1.0.0",
+    "@sudsnik/sim": "1.0.0",
+    "better-sqlite3": "^12.11.1",
+    "undici": "^7.0.0",
+    "yaml": "^2.9.1",
+    "zod": "^4.6.5"
+  }
+}
