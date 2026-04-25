@@ -1,0 +1,111 @@
+# Cost and latency band thresholds, calibrated from the sample set (autograder-spec.md §7.2).
+# A row is keyed by assignment, and by `<assignment>/canary` where the canary's run measures different figures from production's.
+# `full` is full credit and `half` is half; `zero` is neither, and `lowerIsBetter` says which way is better.
+# Measured in the tree this one came from, and generated rather than edited by hand.
+# measured: 2026-09-21T21:56:22.162Z
+wk1-orders:
+  units:
+    full: 20000000
+    half: 26000000
+    zero: 32000000
+    lowerIsBetter: true
+wk3-billing:
+  units:
+    full: 54000000
+    half: 82000000
+    zero: 110000000
+    lowerIsBetter: true
+wk4-washnodes:
+  units:
+    full: 32000000
+    half: 42000000
+    zero: 52000000
+    lowerIsBetter: true
+wk5-dispatch:
+  units:
+    full: 32000000
+    half: 42000000
+    zero: 51000000
+    lowerIsBetter: true
+wk6-ingest:
+  units:
+    full: 120000000
+    half: 170000000
+    zero: 210000000
+    lowerIsBetter: true
+wk7-support:
+  units:
+    full: 3500000
+    half: 4300000
+    zero: 5100000
+    lowerIsBetter: true
+  tokens_per_10k:
+    full: 21000000
+    half: 31000000
+    zero: 40000000
+    lowerIsBetter: true
+  eval_precision:
+    full: 0.8
+    half: 0.74
+    zero: 0.69
+    lowerIsBetter: false
+  eval_recall:
+    full: 0.8
+    half: 0.74
+    zero: 0.69
+    lowerIsBetter: false
+wk8-migration:
+  units:
+    full: 49000000
+    half: 70000000
+    zero: 90000000
+    lowerIsBetter: true
+wk2-billing-contract:
+  units:
+    full: 53000000
+    half: 77000000
+    zero: 100000000
+    lowerIsBetter: true
+wk1-orders/canary:
+  units:
+    full: 20000000
+    half: 26000000
+    zero: 32000000
+    lowerIsBetter: true
+wk2-billing-contract/canary:
+  units:
+    full: 53000000
+    half: 77000000
+    zero: 100000000
+    lowerIsBetter: true
+wk3-billing/canary:
+  units:
+    full: 53000000
+    half: 77000000
+    zero: 100000000
+    lowerIsBetter: true
+wk4-washnodes/canary:
+  units:
+    full: 34000000
+    half: 45000000
+    zero: 56000000
+    lowerIsBetter: true
+wk5-dispatch/canary:
+  units:
+    full: 25000000
+    half: 30000000
+    zero: 34000000
+    lowerIsBetter: true
+wk6-ingest/canary:
+  units:
+    full: 120000000
+    half: 170000000
+    zero: 210000000
+    lowerIsBetter: true
+wk8-migration/canary:
+  units:
+    full: 53000000
+    half: 82000000
+    zero: 110000000
+    lowerIsBetter: true
+wk7-support/canary: {}
