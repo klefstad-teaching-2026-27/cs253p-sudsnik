@@ -1,0 +1,25 @@
+{
+ "url": "https://decant.foo",
+ "token": "di_YTUMmBxzSSj8jJGgfzzTED6CGjyC364S",
+ "course": "cs253p",
+ "assignment": "sudsnik",
+ "include": [
+  "packages/services/**",
+  "packages/contracts/src/services/**",
+  "docs/runbooks/**"
+ ],
+ "exclude": [
+  "**/node_modules/**",
+  ".coursetools/**",
+  "results/**",
+  "data/**",
+  "dist/**",
+  "**/out/**"
+ ],
+ "snapshot": "text-under-cap",
+ "max_file_bytes": 262144,
+ "max_event_bytes": 1048576,
+ "log_tail_bytes": 32768,
+ "timeout_seconds": 5,
+ "client_version": "0.3.0"
+}
