@@ -1,0 +1,12 @@
+{
+  "name": "cs253p-sudsnik",
+  "build": { "dockerfile": "Dockerfile" },
+  "remoteUser": "node",
+  "postCreateCommand": "make hooks && npm ci",
+  "forwardPorts": [4000],
+  "customizations": {
+    "vscode": {
+      "settings": { "terminal.integrated.defaultProfile.linux": "bash" }
+    }
+  }
+}

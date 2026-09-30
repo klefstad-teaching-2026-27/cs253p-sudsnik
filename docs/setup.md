@@ -12,7 +12,27 @@ git; it assumes nothing about Node, npm, or a monorepo.
 
 Once those are in place, the four clone commands are in [`../README.md`](../README.md).
 
-## The pieces
+On Windows, or on any machine where installing these fights you, read "Windows, or a container" below first.
+
+## Windows, or a container
+
+The `Makefile`, every command in the labs, and the course helper assume a Unix shell with Node 20, `jq`,
+`sqlite3`, `make`, and `zip`. Windows has none of these, so get a Linux shell first. Two ways, lightest first:
+
+- **WSL alone.** Install WSL with Ubuntu, open its terminal, and follow this page from "Prerequisites" there, as
+  on Linux. Clone into your Linux home directory, not `/mnt/c`: a repository on the Windows side is slow to
+  install into and the SQLite files in `data/` can fail to lock.
+- **The container.** `.devcontainer/` describes a Linux container with all of the above. Install Docker and VS
+  Code's Dev Containers extension, open the clone, and choose **Reopen in Container**. It builds the container
+  and runs `make hooks` and `npm ci` in it. On Windows, Docker runs inside WSL, so install WSL first and clone
+  into your WSL home directory for the same reason.
+
+GitHub Codespaces can build the same container in the cloud. Its use is billed to your own GitHub account, so
+read GitHub's terms before choosing it; the course does not require it.
+
+Inside either, every command on this page and in the labs runs as written.
+
+## Pieces
 
 - `package.json`: the project's manifest: its dependencies, its npm scripts (`start`, `test`, and the rest below),
   and the `workspaces` list.
@@ -24,7 +44,7 @@ Once those are in place, the four clone commands are in [`../README.md`](../READ
 - `Makefile`: the commands you actually type day to day (`make hooks`, `make canary`, `make quick`, `make deploy`,
   `make clean`); each wraps the npm scripts below it in a few lines you can read straight through.
 
-## The commands
+## Commands
 
 - `make hooks`: points git at `.githooks` so the commit-message format is checked locally. Run it once per clone;
   nothing prints on success.

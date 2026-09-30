@@ -29,7 +29,7 @@ git remote add origin https://github.com/<you>/cs253p-sudsnik.git
 git push -u origin main
 ```
 
-`git log --oneline | wc -l` should say 41. If it says 1, you used the template button; delete it and clone.
+`git log --oneline | wc -l` should say 41 or more. If it says 1, you used the template button; delete it and clone.
 
 ## Quickstart
 
@@ -100,6 +100,7 @@ tools/         lint (the house ESLint rules), fixtures (the calibrated band thre
 docs/          the setup guide, the system, the release train, the ADRs, the runbooks, the wiki
 AGENTS.md      orientation for a coding agent working in this repository
 TODO.md        what somebody meant to do
+.devcontainer/ a Linux container with everything the course runs on (`docs/setup.md`)
 ```
 
 ## Documents
